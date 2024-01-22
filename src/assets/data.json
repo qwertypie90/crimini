@@ -1,0 +1,53 @@
+{
+  "criminis": [
+    {
+      "image_url": "https://www.nydailynews.com/wp-content/uploads/migration/2022/01/05/HZ6FEAXN3FFWVCBCZ7CXN3BGXI.jpg?w=620",
+      "crimes": [
+        "Wearing socks with sandals",
+        "Attempting to dance like no one is watching in a no-dancing zone",
+        "Illegal consumption of excessive amounts of chocolate",
+        "Conspiracy to overthrow the office coffee maker"
+      ]
+    },
+    {
+      "image_url": "https://upload.wikimedia.org/wikipedia/commons/0/07/Jeremy_Meeks_Mug_Shot.jpg",
+      "crimes": [
+        "Failure to laugh at a bad joke",
+        "Smuggling snacks into a movie theater",
+        "Impersonating a fictional character without a license",
+        "idk, but he got a modeling contract after this..."
+      ],
+      "correct_crime_index": 3
+    },
+    {
+      "image_url": "https://s.abcnews.com/images/WNT/190123_wn_jarvis2_hpMain_4x3_992.jpg",
+      "crimes": [
+        "Conducting a pillow fight in a prohibited area",
+        "Illegal possession of too many rubber chickens",
+        "Singing in the shower past midnight",
+        "this one"
+      ],
+      "correct_crime_index": 3
+    },
+    {
+      "image_url": "https://www.usatoday.com/gcdn/-mm-/90228c6cd60fa4f53eb530f3cdb6a79b40785552/c=56-36-739-947/local/-/media/2017/05/29/USATODAY/USATODAY/636316661074927144-tigermug.JPG?width=660&height=881&fit=crop&format=pjpg&auto=webp",
+      "crimes": [
+        "J-walking in a clown costume",
+        "i don't know, but he did it",
+        "Being too funny without a comedy license",
+        "Distributing dad jokes without a permit"
+      ],
+      "correct_crime_index": 1
+    },
+    {
+      "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/202295/rs_1024x759-221005135232-1024-khloe-kardashian-mugshot.jpg",
+      "crimes": [
+        "Illegal assembly of a flash mob without proper permits",
+        "Unauthorized possession of a pet rock",
+        "DUI",
+        "Public performance of interpretive dance without a permit"
+      ],
+      "correct_crime_index": 2
+    }
+  ]
+}

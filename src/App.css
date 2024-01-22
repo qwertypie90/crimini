@@ -1,3 +1,33 @@
+@font-face {
+  font-family: 'Rubik_Doodle_Shadow';
+  src: url('./assets/fonts/RubikDoodleShadow-Regular.ttf') format('truetype');
+}
+
+/* body {
+} */
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+/* input {
+
+} */
+
+label {
+  display: inline-block; /* Keep the labels in line */
+}
+
+
+
+
+
 .App {
   text-align: center;
 }
@@ -6,6 +36,31 @@
   height: 40vmin;
   pointer-events: none;
 }
+
+.aws-btn {
+  --button-default-height: 64px;
+  --button-default-font-size: 14px;
+  --button-default-border-radius: 10px;
+  --button-horizontal-padding: 50px;
+  --button-raise-level: 5px;
+  --button-hover-pressure: 2;
+  --transform-speed: .185s;
+  --button-primary-color: #1bd03f;
+  --button-primary-color-dark: #2b7321;
+  --button-primary-color-light: #742563;
+  --button-primary-color-hover: #ff890a;
+  --button-primary-border: 0px solid #FFFFFF;
+  --button-secondary-color: #fffc6c;
+  --button-secondary-color-dark: #b9b500;
+  --button-secondary-color-light: #6c6a00;
+  --button-secondary-color-hover: #fffb3e;
+  --button-secondary-border: 0px solid #FFFFFF;
+  --button-anchor-color: #f3c8ad;
+  --button-anchor-color-dark: #734922;
+  --button-anchor-color-light: #4c3016;
+  --button-anchor-color-hover: #f1bfa0;
+  --button-anchor-border: 0px solid #8c633c;
+  }
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -28,6 +83,7 @@
   color: #61dafb;
 }
 
+/* this is so sick lol
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +91,58 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+
+
+@media screen and (max-width: 560px) {
+  body {
+    min-width: fit-content;
+  }
+
+  /* Your styles for screens under 480 pixels go here */
+  .App-logo {
+    height: 50vmin;
+
+  }
+
+  h1 {
+    font-size: 72px;
+  }
+  ul {
+    color: green;
+    font-size: 35px;
+  }
+
+  li {
+    display: inline-flex;
+    padding-bottom: 20px; /* Adjust the margin-bottom as needed */
+  }
+ 
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    overflow-x: hidden; 
+    overflow-y: auto;  
+  }
+
+  .App-logo {
+    height: 50vmin;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+  ul {
+    color: pink;
+    font-size: 25px;
+  }
+
+  li {
+    display: inline-flex;
+    padding-bottom: 20px; /* Adjust the margin-bottom as needed */
+  }
+ 
 }
